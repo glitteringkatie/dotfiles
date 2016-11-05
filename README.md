@@ -8,4 +8,4 @@ Current prefered font: Fira Code
 
 ## Usage
 
-Suggested: just copy. The installsymlinks.sh seems iffy with neobundle
+Suggested: just copy. The makesymlinks.sh seems iffy with neobundle
