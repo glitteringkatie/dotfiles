@@ -1,4 +1,4 @@
-# ${1:Project Name}
+# Katie's Dot Files
 
 These are my dot files.
 
