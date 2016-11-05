@@ -29,3 +29,8 @@ for file in $files; do
     echo "Creating symlink to $file in home directory."
     ln -s $dir/$file ~/.$file
 done
+
+echo "Moving custom zsh themes from custom/themes to $olddir"
+mv ~/.oh-my-zsh/custom/themes ~/dotfiles_old/zsh-themes
+echo "Creating symlink from zsh-themes to custom/themes"
+ln -s $dir/zsh-themes ~/.oh-my-zsh/custom/themes
